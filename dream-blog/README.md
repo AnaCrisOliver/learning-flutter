@@ -9,13 +9,15 @@ The app starts with a homepage containing [100 posts](https://jsonplaceholder.ty
 
 ### The homepage 🏠
 
-![](./assets/prints/homepage.png)
+<img src="./assets/prints/homepage.png" alt="drawing" width="350"/>
 
 ### The post itself 📜
-![](./assets/prints/postdetails.png)
+
+<img src="./assets/prints/postdetails.png" alt="drawing" width="350"/>
 
 ### The sidebar ℹ️
-![](./assets/prints/sidebar.png)
+
+<img src="./assets/prints/sidebar.png" alt="drawing" width="350"/>
 
 ## Running this app 🏃‍♀️
 If you don't know how to run a Flutter project, follow this steps: </br>
