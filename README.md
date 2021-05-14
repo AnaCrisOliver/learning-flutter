@@ -2,12 +2,16 @@
 
 This is where I'm keeping my Flutter projects while I'm learning more about this awesome framework.
 
+## Here you'll se:
+
+ - 👩‍💻 _dream blog app: my first Flutter project, an app inspired on [Dreamlabs blog](https://dreamlabs.com.br/blog/). You can find that [here](https://github.com/AnaCrisOliver/learning-flutter/tree/master/dream-blog).
 
 ## What do I use to create my projects?
  - A DELL inspiron computer with an Intel® Core™ i5-10210U CPU @ 1.60GHz × 8 processor, 8gb RAM
  - Ubuntu 18.04.5
- - Visual Studio Code
  - Android Studio
+ - Visual Studio Code
+ - Flutter Documentation
  - Git and GitHub  :octocat:
 
 ## Running Flutter apps ⚙️
