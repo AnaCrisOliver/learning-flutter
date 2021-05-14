@@ -9,15 +9,15 @@ The app starts with a homepage containing [100 posts](https://jsonplaceholder.ty
 
 ### The homepage 🏠
 
-<img src="./assets/prints/homepage.png" alt="drawing" width="250"/>
+<img src="./assets/prints/homepage.png" alt="drawing" width="350"/>
 
 
 ### The post itself 📜
-<img src="./assets/prints/postdetails.png" alt="drawing" width="250"/>
+<img src="./assets/prints/postdetails.png" alt="drawing" width="350"/>
 
 
 ### The sidebar ℹ️
-<img src="./assets/prints/sidebar.png" alt="drawing" width="250"/>
+<img src="./assets/prints/sidebar.png" alt="drawing" width="350"/>
 
 
 ## Running this app 🏃‍♀️
