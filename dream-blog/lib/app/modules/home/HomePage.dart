@@ -20,47 +20,76 @@ class _HomePageState extends State<HomePage> {
 
       title: 'Dream blog',
       debugShowCheckedModeBanner: false,
-      theme: AppTheme.blackTheme,
+      theme: AppTheme.purpleTheme,
       darkTheme: ThemeData.dark(),
 
-      home: Scaffold(
-
-          appBar: AppBar(
-
-            title: Text(
-              '_dream blog',
-              style: AppBarTextStyle.dreamDefault,
-            ),
-
-            leading: IconButton(
-              icon: AppIcons.moreInfo,
-              tooltip: 'My account',
-              onPressed: () {
-
-              },
-            ),
-            actions: [
-              Container(
-                width: 30,
-                child: AppImages.logo,
-              ),
-
-              IconButton(
-                icon: AppIcons.account,
-                tooltip: 'My account',
-                onPressed: () {
-                  // handle the press
-                },
-              ),
-            ],
-          ),
-
-          body: HomeBody(),
-
-          drawer: ShowInfo(),
-      ),
+      home: HomeScaffold(),
     );
   }
+}
+
+class HomeScaffold extends StatefulWidget {
+  HomeScaffold();
+  @override
+  _HomeScaffoldState createState() => _HomeScaffoldState();
+}
+
+class _HomeScaffoldState extends State<HomeScaffold> {
+
+
+  Widget build(BuildContext context) {
+    return new Scaffold(
+
+      backgroundColor: Colors.white,
+      appBar: new PreferredSize(
+
+        child: new Container(
+          padding: new EdgeInsets.only(
+              top: MediaQuery.of(context).padding.top
+          ),
+
+          child: new Padding(
+            padding: const EdgeInsets.only(
+                left: 30.0,
+                top: 20.0,
+                bottom: 20.0
+            ),
+            child: new Container(
+
+              child: new Text(
+                '_dream blog',
+                style: AppBarTextStyle.dreamDefault,
+            ),
+            )
+          ),
+          decoration: new BoxDecoration(
+              gradient: new LinearGradient(
+                  begin: Alignment.topRight,
+                  end: Alignment.bottomLeft,
+                  colors: [
+                    AppColors.darkPurple,
+                    Colors.purple.shade400
+                  ]
+              ),
+              boxShadow: [
+                new BoxShadow(
+                  color: Colors.grey[500],
+                  blurRadius: 20.0,
+                  spreadRadius: 1.0,
+                )
+              ]
+          ),
+        ),
+        preferredSize: new Size(
+            MediaQuery.of(context).size.width,
+            150.0
+        ),
+      ),
+      body: HomeBody(),
+      drawer: ShowInfo(),
+    );
+  }
+  
 }
 
 class ShowInfo extends StatefulWidget {
@@ -76,22 +105,23 @@ class _ShowInfoState extends State<ShowInfo> {
 
     return Drawer(
 
+
       child: ListView(
 
         padding: EdgeInsets.zero,
         children: <Widget>[
           DrawerHeader(
             decoration: BoxDecoration(
-              color: AppColors.darkPurple,
+              color: AppColors.semiDarkPurple,
             ),
             child: Container(
-
               margin: const EdgeInsets.all(4.0),
               height: 200,
+
               alignment: Alignment.centerLeft,
               child: RichText (
                   text: TextSpan(
-                  text: 'Made with 🤍 by AnaCrisOliver\n\nImage copyright: Dreamlabs',
+                  text: 'Made with 🤍 by AnaCrisOliver',
                   style: HomeContentStyle.p2Style,
               ),
             ),
@@ -122,7 +152,7 @@ class _HomeBodyState extends State<HomeBody> {
     // Creating the list of posts
     return ListView.separated(
 
-      padding: const EdgeInsets.all(8),
+      padding: const EdgeInsets.all(20),
       itemCount: posts.length,
       itemBuilder: (BuildContext context, int index) {
 
@@ -133,8 +163,8 @@ class _HomeBodyState extends State<HomeBody> {
                 MaterialPageRoute(builder: (context) => SecondRoute(index)),
               ),
           child: Container( // Each post settings
-            decoration: HomePostBox.light,
-            margin: const EdgeInsets.all(4.0),
+            decoration: HomePostBox.dark,
+            margin: const EdgeInsets.all(0),
             height: 200,
             alignment: Alignment.centerLeft,
 

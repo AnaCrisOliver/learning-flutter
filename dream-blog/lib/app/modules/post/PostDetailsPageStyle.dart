@@ -2,13 +2,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../../AppStyle.dart';
 
-
 class PostPageTitle {
 
   static const TextStyle h1Style = const TextStyle(
-      fontSize: 20,
+      fontSize: 21,
       fontWeight: FontWeight.bold,
-      color: AppColors.lemonGreen,
+      color: AppColors.darkPurple,
       fontFamily: 'Mukta',
 
   );
@@ -18,23 +17,12 @@ class PostPageTitle {
 class PostPageContent {
 
   static const pStyle = const TextStyle(
-    fontSize: 17,
+    fontSize: 19,
     fontWeight: FontWeight.w300,
-    color: Colors.white,
+    color: AppColors.semiDarkPurple,
     decorationStyle: TextDecorationStyle.wavy,
   );
 
-}
-
-class PostBox {
-  static BoxDecoration light = BoxDecoration(
-
-      border: Border.all(
-        color: AppColors.lemonGreen,
-        width: 1,
-      ),
-    borderRadius: BorderRadius.circular(5),
-  );
 }
 
 String formatContent (String body) {

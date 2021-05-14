@@ -7,23 +7,41 @@ class AppBarTextStyle {
   static const TextStyle dreamDefault = const TextStyle(
       fontFamily: 'Space Mono',
       fontSize: 20,
+      color: Colors.white
   );
 
 }
 
 class HomePostBox {
 
-  static BoxDecoration light = BoxDecoration(
-    color: AppColors.lemonGreen,
+  static BoxDecoration dark = BoxDecoration(
+    color: AppColors.darkPurple,
+    boxShadow: [BoxShadow(
+      color: Colors.purple.withOpacity(0.5),
+      spreadRadius: 1,
+      blurRadius: 7,
+      offset: Offset(0, 6),
+    ),],
+
+    borderRadius: BorderRadius.circular(20),
+    gradient: LinearGradient(
+      begin: Alignment.topRight,
+      end: Alignment.bottomLeft,
+      colors: [
+        AppColors.darkPurple,
+        Colors.purple.shade400,
+      ],
+    )
   );
+
 }
 
 class HomeTitleStyle {
 
   static const TextStyle h1Style = const TextStyle(
-      fontSize: 17,
+      fontSize: 15,
       fontWeight: FontWeight.bold,
-      color: AppColors.darkPurple,
+      color: Colors.white,
       fontFamily: 'Mukta'
   );
 
@@ -32,7 +50,7 @@ class HomeTitleStyle {
 class HomeContentStyle {
 
   static const pStyle = const TextStyle(
-    fontSize: 15,
+    fontSize: 13,
     fontWeight: FontWeight.w300,
     color: Colors.white,
   );
@@ -40,7 +58,7 @@ class HomeContentStyle {
   static const p2Style = const TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.w300,
-    color: AppColors.lemonGreen,
+    color: Colors.white,
     fontFamily: 'Space Mono'
   );
 
