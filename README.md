@@ -4,7 +4,9 @@ This is where I'm keeping my Flutter projects while I'm learning more about this
 
 ## Here you'll se:
 
- - 👩‍💻 _dream blog app: my first Flutter project, an app inspired on [Dreamlabs blog](https://dreamlabs.com.br/blog/). You can find that [here](https://github.com/AnaCrisOliver/learning-flutter/tree/master/dream-blog).
+ - 👩‍💻 _dream blog app: my first Flutter project, an app inspired by [Dreamlabs blog](https://dreamlabs.com.br/blog/). You can find that [here](https://github.com/AnaCrisOliver/learning-flutter/tree/master/dream-blog).
+
+ - ✅ to-do list app: my second Flutter project, an app inspired by [Andre Baltieri](https://www.youtube.com/watch?v=0OnQrqs17wI). You can find that [here](https://github.com/AnaCrisOliver/learning-flutter/tree/master/todo-list).
 
 ## What do I use to create my projects?
  - A DELL inspiron computer with an Intel® Core™ i5-10210U CPU @ 1.60GHz × 8 processor, 8gb RAM
