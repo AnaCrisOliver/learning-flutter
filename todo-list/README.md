@@ -1,4 +1,4 @@
-# To-do List Project ✅
+# To-do List Project ✔️
 
 This is my second Flutter project, a simple to-do list app inspired by [Andre Baltieri](https://www.youtube.com/watch?v=0OnQrqs17wI). It was an interesting project to make because it allowed me to practice my frontend skills.
 
@@ -12,16 +12,16 @@ The app starts with a homepage containing a list of tasks. From there, you can m
 <img src="./assets/prints/homepage.png" alt="homepage" width="350"/>
 
 
-### Marking a task as done
+### Marking a task as done ✔️
 
 <img src="./assets/prints/taskdone.gif" alt="task done" width="350"/>
 
 
-### The "add new task" box
+### Adding a new task ➕
 
 <img src="./assets/prints/addnewtask.gif" alt="add new task box" width="350"/>
 
-### Deleting a task
+### Deleting a task 🔴
 
 <img src="./assets/prints/deletetask.gif" alt="delete task" width="350"/>
 
