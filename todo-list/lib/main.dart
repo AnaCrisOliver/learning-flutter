@@ -2,7 +2,7 @@
 import 'dart:convert';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'models/screens/home/home-page.dart';
+import 'models/screens/home/home_page.dart';
 
 void main() => runApp(App());
 
