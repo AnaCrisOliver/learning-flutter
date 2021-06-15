@@ -1,6 +1,6 @@
-# imc_calculator
+# IMC Calculator Project ⚖️
 
-A new Flutter project.
+This is my third Flutter project, a simple IMC calculator app.
 
 ## Getting Started
 
