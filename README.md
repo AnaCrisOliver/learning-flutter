@@ -8,8 +8,8 @@ This is where I'm keeping my Flutter projects while I'm learning more about this
 
  - ✅ to-do list app: my second Flutter project, an app inspired by [Andre Baltieri](https://www.youtube.com/watch?v=0OnQrqs17wI). You can find that [here](https://github.com/AnaCrisOliver/learning-flutter/tree/master/todo-list).
 
- - ⚖️ IMC Calculator app: my third Flutter project, an app inspired by a [Flutter course](https://www.udemy.com/course/curso-completo-flutter-app-android-ios/).
-
+ - ⚖️ IMC Calculator app: my third Flutter project, an app inspired by a [Flutter course](https://www.udemy.com/course/curso-completo-flutter-app-android-ios/). You can find that [here](https://github.com/AnaCrisOliver/learning-flutter/tree/master/imc-calculator).
+ 
 ## What do I use to create my projects?
  - A DELL inspiron computer with an Intel® Core™ i5-10210U CPU @ 1.60GHz × 8 processor, 8gb RAM
  - Ubuntu 18.04.5
