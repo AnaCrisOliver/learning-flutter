@@ -11,6 +11,8 @@ This is where I'm keeping my Flutter projects while I'm learning more about this
  - ⚖️ IMC Calculator app: my third Flutter project, an app inspired by a [Flutter course](https://www.udemy.com/course/curso-completo-flutter-app-android-ios/). You can find that [here](https://github.com/AnaCrisOliver/learning-flutter/tree/master/imc-calculator).
 
  - 💰 Currency Converter app: my fourth Flutter project, an app inspired by a [Flutter course](https://www.udemy.com/course/curso-completo-flutter-app-android-ios/). You can find that [here](https://github.com/AnaCrisOliver/learning-flutter/tree/master/currency-converter).
+
+  - 🖼️ Search Gifs app: my fifth Flutter project, an app inspired by a [Flutter course](https://www.udemy.com/course/curso-completo-flutter-app-android-ios/). You can find that [here](https://github.com/AnaCrisOliver/learning-flutter/tree/master/search-gifs).
  
 ## What do I use to create my projects?
  - A DELL inspiron computer with an Intel® Core™ i5-10210U CPU @ 1.60GHz × 8 processor, 8gb RAM
