@@ -1,6 +1,6 @@
-# contacts
+# Contacts List Project 👥
 
-A new Flutter project.
+This is my sixth Flutter project, a simple Contacts List app.
 
 ## Getting Started
 
